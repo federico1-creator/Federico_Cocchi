@@ -23,17 +23,29 @@
                   Federico Cocchi
                 </p>
                 <p>I'm a National PhD student in Artificial Intelligence at <a href="https://aimagelab.ing.unimore.it/imagelab/">AImageLab</a>.
-                  My research activities involve Deepfake detection, Large Language Models and Multimodality.
+                  My research activities involve Multimodal Large Language Models, Large Language Models and Deepfake detection.
                   My interests extend to Generative AI and HPC systems. 
                   <!-- I actively leverage AI technologies in my daily activities to introduce breakthroughs and resolve in an innovative and disruptive way new and old problems. -->
                 </p>
                 <p>
-                  My initial engagement with AImageLab occured during my Master thesis, where I worked on the problem of Deepfake detection under the 
-                  supervision of <a href="https://scholar.google.com/citations?user=OM3sZEoAAAAJ&hl=it">Prof. Rita Cucchiara</a>.
+                  I had the opportunity to touch for the first time the world of AI, during my Bachelor's thesis. 
+                  Specifically, in the field of Anomaly Detection in HPC systems. During this time I expanded a framework designed 
+                  to prevent potential failures in HPC clusters. This work was possible thanks to the collaboration with 
+                  my supervisors <a href="https://scholar.google.com/citations?user=bQBpCnEAAAAJ&hl=it">Prof. Michela Milano</a> 
+                  and <a href="https://scholar.google.com/citations?hl=en&user=8riq3sYAAAAJ&view_op=list_works&sortby=pubdate">Prof. Luca Benini</a>.
+                </p>
+                <p>
+                  My initial engagement with AImageLab began during my Master’s thesis, where I worked on the problem of 
+                  Deepfake detection under the supervision of <a href="https://scholar.google.com/citations?user=OM3sZEoAAAAJ&hl=it">Prof. Rita Cucchiara</a>, 
+                  contributing to the development of datasets and models publicly released under the European project <a href="https://www.elsa-ai.eu/">ELSA</a>.
+                </p>
 
-                  During my Bachelor's thesis I had the opportunity to touch the world of AI, in particular with the field of Anomaly Detection
-                  in HPC system. In this period I expanded a framework to prevent possible failures in HPC systems.
-                  This work was possible thanks to the collaboration with my supervisors <a href="https://scholar.google.com/citations?user=bQBpCnEAAAAJ&hl=it">Prof. Michela Milano</a> and <a href="https://scholar.google.com/citations?hl=en&user=8riq3sYAAAAJ&view_op=list_works&sortby=pubdate">Prof. Luca Benini</a>.
+                <p>
+                  <ul>
+                    <li><a href="https://github.com/aimagelab/LLaVA-MORE">LLaVA-MORE:</a> Enhancing Visual Instruction Tuning with LLaMA 3.1</li>
+                    <li><a href="https://huggingface.co/collections/fede97/latingpt-6687d2eb4f666aaf1029a679">LatinGPT:</a> first generative model trained from scratch with Latin data</li>
+                    <li>[ECCV 2024 DEMO]: Showcase Contrasting Deepfakes Embeddings</li>
+                  </ul>
                 </p>
                 
                 <!-- INFO ELEMENTS -->
@@ -64,9 +76,9 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in Computer Vision, Natural Language Processing and Generative AI. 
-                  Most of my research indagate the intersection between these fields.
-                  My research papers are included in the following list.
+                  I am interested in Generative AI, Computer Vision and Natural Language Processing. 
+                  Most of my research explores the intersection of these fields. 
+                  Moreover, below is a representative list of my research papers.
                   <!-- Representative papers are <span class="highlight">highlighted</span>. -->
                 </p>
               </td>
@@ -81,7 +93,7 @@
       </td>
       <td width="75%" valign="middle">
         <a href="https://arxiv.org/abs/2311.16254">
-          <span class="papertitle">Removing NSFW Concepts from Vision-and-Language Models for Text-to-Image Retrieval and Generation</span>
+          <span class="papertitle">Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models</span>
         </a>
         <br>
         <a>Samuele Poppi*</a>,
@@ -93,15 +105,17 @@
         <br>
         <em>European Conference on Computer Vision (ECCV)</em>, 2024
         <br>
-        <a href="references/safe_clip.bib">bibtex</a> /
-        <!-- <a href="references/safe_clip.bib">project page</a> / -->
-        <!-- <a href="references/safe_clip.bib">dataset</a> / -->
+        <a href="https://arxiv.org/abs/2311.16254">paper</a> /  
         <a href="https://github.com/aimagelab/safe-clip">code</a> /
-        <a href="https://arxiv.org/abs/2311.16254">arXiv</a>
-
+        <a href="https://aimagelab.github.io/safe-clip/">project page</a> /
+        <a href="https://huggingface.co/collections/aimagelab/safe-clip-668d0a0ca697b69d66433338">model</a> /
+        <a href="https://huggingface.co/datasets/aimagelab/ViSU-Text">dataset</a> /
+        <a href="references/safe_clip.bib">bibtex</a>
         <p>This paper improves the safety
            of Vision-and-Language models like CLIP by reducing sensitivity to NSFW content.
-          Showing results on Image generation and Retrieval.</p>
+          Showing results on Image generation and Retrieval.
+          <!--both Image to Text and Text to Image-->
+        </p>
       </td>
     </tr>
 
@@ -110,14 +124,13 @@
         <img src="image/deepfake_model-1.png" alt="code" width="160" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="https://scholar.google.com/citations?user=BRG3e1EAAAAJ&hl=it"> 
+        <a href="https://arxiv.org/abs/2407.20337"> 
           <!-- TODO: add link to the paper -->
           <span class="papertitle">Contrasting Deepfakes Diffusion via Contrastive Learning and Global-Local Similarities</span>
         </a>
         <br>
         <a>Lorenzo Baraldi*</a>,
         <strong>Federico Cocchi*</strong>,
-        <a>Rosario Di Carlo</a>,
         <a>Marcella Cornia</a>,
         <a>Lorenzo Baraldi</a>,
         <a>Alessandro Nicolosi</a>,
@@ -126,11 +139,15 @@
         <!-- <em>arxiv</em>, 2023 -->
         <em>European Conference on Computer Vision (ECCV)</em>, 2024
         <br>
-        <a href="https://aimagelab.ing.unimore.it/imagelab/project.asp?idprogetto=101">project page</a> /
-        <a href="https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=57">dataset</a>
+        <a href="https://arxiv.org/abs/2407.20337">paper</a> /  
+        <a href="https://github.com/aimagelab/CoDE">code</a> /
+        <a href="https://aimagelab.github.io/CoDE/">project page</a> /
+        <!-- <a href="https://aimagelab.github.io/CoDE/">model</a> / -->
+        <a href="https://huggingface.co/datasets/elsaEU/ELSA_D3">dataset</a> /
+        <a href="references/code.bib">bibtex</a>
         <p>The study proposes CoDE (Contrastive Deepfake Embeddings), a specialized embedding space for 
           effective deepfake detection. By employing a contrastive-learning approach that 
-          emphasizes global-local similarities</p>
+          emphasizes global-local similarities.</p>
       </td>
     </tr>
 
@@ -139,8 +156,7 @@
         <img src="image\methods_icpr.jpg" alt="code" width="160" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="https://scholar.google.com/citations?user=BRG3e1EAAAAJ&hl=it"> 
-          <!-- TODO: add link to the paper -->
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=BRG3e1EAAAAJ&citation_for_view=BRG3e1EAAAAJ:zYLM7Y9cAGgC"> 
           <span class="papertitle">Adapt to Scarcity: Few-Shot Deepfake Detection via Low-Rank Adaptation</span>
         </a>
         <br>
@@ -153,8 +169,8 @@
         <br>
         <em>International Conference on Pattern Recognition (ICPR)</em>, 2024
         <br>
-        <!-- <a href="https://aimagelab.ing.unimore.it/imagelab/project.asp?idprogetto=101">project page</a> /
-        <a href="https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=57">dataset</a> -->
+        <a href="https://iris.unimore.it/retrieve/handle/11380/1343567/690594/2024_ICPR_Deepfakes.pdf">paper</a> /  
+        <a href="references/icpr.bib">bibtex</a>
         <p>We propose a novel approach using Low-Rank Adaptation (LoRA) of the CLIP architecture, 
           achieving superior performance in few-shot deepfake detection, even with minimal data, across multiple state-of-the-art generators.</p>
       </td>
@@ -165,7 +181,7 @@
         <img src="image/survey.png" alt="code" width="160" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="https://scholar.google.com/citations?user=BRG3e1EAAAAJ&hl=it"> 
+        <a href="https://arxiv.org/abs/2402.12451"> 
           <!-- TODO: add link to the paper -->
           <span class="papertitle">The (R)Evolution of Multimodal Large Language Models: A Survey</span>
         </a>
@@ -182,7 +198,9 @@
         <br>
         <em>Annual Meeting of the Association for Computational Linguistics (ACL) Findings</em>, 2024
         <br>
-        <a href="https://arxiv.org/pdf/2402.12451">paper</a>
+        <a href="https://arxiv.org/abs/2402.12451">paper</a> /
+        <a href="poster/2024_Poster_survey_multimodal.pdf">poster</a> /
+        <a href="references/survey_mllm.bib">bibtex</a>
         <p>In this paper we introduce the emergence of Multimodal Large Language Models (MLLMs), highlighting their ability to seamlessly integrate both textual and visual modalities.
           Exploring architectural choices, alignment strategies, and training techniques employed in MLLMs.
           Additionally, the paper provides insights into the performance and computational requirements of existing models across tasks such as visual grounding, image generation, 
@@ -195,8 +213,7 @@
         <img src="image/wiki_llava.png" alt="code" width="160" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="https://scholar.google.com/citations?user=BRG3e1EAAAAJ&hl=it"> 
-          <!-- TODO: add link to the paper -->
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=BRG3e1EAAAAJ&citation_for_view=BRG3e1EAAAAJ:qjMakFHDy7sC"> 
           <span class="papertitle">Wiki-LLaVA: Hierarchical Retrieval-Augmented Generation for Multimodal LLMs</span>
         </a>
         <br>
@@ -210,7 +227,9 @@
         <br>
         <em> IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) Workshop</em>, 2024
         <br>
-        <a href="https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Caffagni_Wiki-LLaVA_Hierarchical_Retrieval-Augmented_Generation_for_Multimodal_LLMs_CVPRW_2024_paper.pdf">paper</a>
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Caffagni_Wiki-LLaVA_Hierarchical_Retrieval-Augmented_Generation_for_Multimodal_LLMs_CVPRW_2024_paper.pdf">paper</a> /
+        <a href="poster/2024_Poster_wiki-llava.pdf">poster</a> /
+        <a href="references/wiki_llava.bib">bibtex</a>
         <br>
         <p>Multimodal LLMs (MLLMs) extend the capabilities of LLMs beyond textual modalities. We put our focus on enhancing these models to answer questions that required external knowledge. 
           The proposed approach, Wiki-LLaVA, integrates an external knowledge source via a hierarchical retrieval pipeline. Extracted relevant passages augment the LLM's context, 
@@ -225,8 +244,7 @@
         <img src="image/iciap_plot-1.png" alt="code" width="160" style="border-style: none">
       </td>
       <td width="75%" valign="middle">
-        <a href="https://iris.unimore.it/bitstream/11380/1309209/6/2023-iciap-deepfake.pdf"> 
-          <!-- TODO: add link to the paper -->
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=BRG3e1EAAAAJ&citation_for_view=BRG3e1EAAAAJ:u-x6o8ySG0sC"> 
           <span class="papertitle">Unveiling the Impact of Image Transformations on Deepfake Detection: An Experimental Analysis</span>
         </a>
         <br>
@@ -239,7 +257,7 @@
         <em>ICIAP</em>, 2023
         <br>
         <a href="https://iris.unimore.it/bitstream/11380/1309209/6/2023-iciap-deepfake.pdf">paper</a> /
-        <a href="references/iciap_2023.bib">bibtex</a> /
+        <a href="references/iciap_2023.bib">bibtex</a>
         <p>
           This study delves into the critical realm of deepfake detection, emphasizing the importance of countering 
           the potential misuse of generated media for fake news.
@@ -272,8 +290,29 @@
                 ELSA is a virtual center of excellence that will spearhead efforts in foundational safe and secure 
                 artificial intelligence (AI) methodology research.
                 </p>
-                <p> I am involved in the Media Analytics use cases. Where we develop new approaches to detect deepfake images 
+                <p> I am involved in the Multimedia use cases. Where I develop new approaches to detect deepfake images 
                   to tackle important social challenges such as misinformation. </p>
+                <br>
+
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="image/logo/fair_project.png" alt="code" width="160" style="border-style: none">
+              </td>
+              <td width="75%" valign="center">
+                <a href="https://fondazione-fair.it/">FAIR - Future Artificial Intelligence Research</a>
+                <p>        
+                  The FAIR project is a national scale, multidisciplinary initiative aimed at reimagining and developing 
+                  large-scale foundational models. It explores research questions, methodologies, models, technologies, 
+                  as well as ethical and legal frameworks for creating Artificial Intelligence systems capable of interacting 
+                  and collaborating with humans.
+                  </p>
+                  <p>
+                  I am engaged on the trasversal project on vision, language and multimodality.
+                  </p>
+
                 <br>
 
               </td>
@@ -290,29 +329,9 @@
                 </p>
                 <p>
                 I am involved in the project as a PhD student, where I work on creation of Large Language Models
-                for ancient languages.
+                for ancient languages, such as Latin.
                 </p>
               
-                <br>
-
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="image/logo/fair_project.png" alt="code" width="160" style="border-style: none">
-              </td>
-              <td width="75%" valign="center">
-                <a href="https://future-ai-research.it/">FAIR - Future Artificial Intelligence Research</a>
-                <p>
-                  FAIR project aims to help address the research questions, methodologies, models, technologies, 
-                  and even ethical and legal rules for building Artificial Intelligence systems capable of interacting 
-                  and collaborating with humans.
-                  </p>
-                  <p>
-                  I am engaged on the trasversal project on vision, language and multimodality.
-                  </p>
-
                 <br>
 
               </td>
@@ -346,12 +365,32 @@
                   <br>
                   <em>ELLIS Summer School, Winner Project</em>, 2023
                   <br>
-                  <a href="https://www.ellis.unimore.it/media/project_reports/ELLIS_FLIP_project.pdf">paper</a> /
+                  <a href="https://www.ellis.unimore.it/media/project_reports/ELLIS_FLIP_project.pdf">paper</a> 
                   <p>We explore novel methods to enhance masking paradigms such as FLIP, with the objective of accelerating 
                     the pre-training process for a Vision-and-Language model. </p>
                     <!-- Language-Image system -->
                 </td>
               </tr>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Mentorship Activities</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="0"><tbody>
+
+          <tr>
+            <td style="padding-left: 20px;"> <!-- Add padding-left here -->
+              <ul>
+                <li style="margin-bottom: 5px;">Master Thesis Correlator. Luisa Bottiglieri. "Deepfakes Detection: Dividing Real and Fake Images"</li>
+                <li style="margin-bottom: 5px;">Master Thesis Correlator. Silvia Cappelletti. "Adapt to Scarcity: Few-Shot Deepfake Detection via Low-Rank Adaptation"</li>
+                <li style="margin-bottom: 5px;">Project Tutor of the exam: "Computer Vision and Cognitive Systems"</li>
+              </ul>
+            </td>
+          </tr>  
+
 
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
             <tr>
@@ -365,15 +404,14 @@
             <tr>
               <td style="padding-left: 20px;"> <!-- Add padding-left here -->
                 <ul>
-                  <li style="margin-bottom: 5px;">European Conference on Computer Vision (ECCV) 2024</li>
-                  <li style="margin-bottom: 5px;">Conference on Computer Vision and Pattern Recognition Workshop (CVPR 2024 </li>
-                  <li style="margin-bottom: 5px;">International Conference on Computer Vision Workshop (ICCV W) 2023</li>
-                  <li>International Conference on ACM Multimedia (ACM MM) 2023</li>
+                  <li style="margin-bottom: 5px;">European Conference on Computer Vision <b>(ECCV) 2024</b></li>
+                  <li style="margin-bottom: 5px;">Conference on Computer Vision and Pattern Recognition Workshop <b>(CVPR W) 2024</b> </li>
+                  <li style="margin-bottom: 5px;">International Conference on Computer Vision Workshop <b>(ICCV W) 2023</b></li>
+                  <li style="margin-bottom: 5px;">International Conference on ACM Multimedia <b>(ACM MM) 2023, 2024</b></li>
+                  <li style="margin-bottom: 5px;">Computer Vision and Image Understanding Journal <b>(CVIU) 2024</b></li>
                 </ul>
               </td>
-            </tr>
-
-            
+            </tr>          
             
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
