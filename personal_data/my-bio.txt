@@ -1,6 +1,11 @@
 Hello World !!!
+I am Federico a last year National PhD student in Artificial Intelligence at AImageLab 
+and I am currently based in Modena, Italy.
 
-I am Federico, a National PhD student in Artificial Intelligence at AImageLab.
-I am currently based in Modena, Italy.
-My research activities involve Deepfake detection, Large Language Models and Multimodality.
-Moreover, my interests extend to Generative AI and HPC systems. 
+During my Bachelor's thesis I had the opportunity to work with HPC systems to prevent potential failures. 
+This work was possible thanks to the collaboration with my supervisors Prof. Michela Milano and Prof. Luca Benini.
+
+My initial engagement with AImageLab began during my Master’s thesis, where I worked on the problem of Deepfake detection 
+under the supervision of Prof. Rita Cucchiara, contributing to the development of datasets and models publicly released under the European project ELSA.
+
+Nowadays, my research focuses on Large Vision Language Models, Vision-and-Language Foundation Models to improve reasoning and understanding capabilities. 
