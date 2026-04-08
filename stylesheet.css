@@ -109,6 +109,17 @@ h2 {
   font-size: 32px;
 }
 
+.tagline {
+  margin: 10px 0 22px;
+  text-align: center;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4672da;
+}
+
 .one {
   width: 160px;
   height: 160px;
